@@ -4,7 +4,7 @@ django-random-id-generator
 What is it?
 ===========
 
-django-simple-blog is a simple Django app to Generate Random and Unique IDs for Django model objects with custom save method
+django-random-id-generator is a simple Django app to Generate Random and Unique IDs for Django model objects with custom save method
 
 
 Installation
@@ -13,7 +13,7 @@ Installation
 You can get ``django-random-id-generator`` by :
 
 
-- Download or git clone _`<https://github.com/frankovo/django-random-id-generator.git>`_
+- Download or git clone `<https://github.com/frankovo/django-random-id-generator.git>`_
 
 
 Usage
@@ -36,7 +36,7 @@ Usage
 
 5. Run ``python manage.py runserver``
 
-6. Go to _`<http://127.0.0.1:8000/admin/>`_
+6. Go to `<http://127.0.0.1:8000/admin/>`_
 
 
 Requirements
