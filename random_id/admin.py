@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from test_app.models import Product
+from random_id.models import Product
 
 
 class ProductAdmin(admin.ModelAdmin):

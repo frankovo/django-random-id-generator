@@ -3,7 +3,7 @@ import string
 
 from django.db import models
 
-from test_app.utils import generate_random_string as id_generator
+from random_id.utils import generate_random_string as id_generator
 
 class Product(models.Model):
     order_id = models.CharField('Article Refrence', max_length=11, editable=False, unique=True, null=True)
