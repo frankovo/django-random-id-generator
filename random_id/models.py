@@ -1,10 +1,13 @@
+from __future__ import unicode_literals
 import random
 import string
 
 from django.db import models
+from django.utils.encoding import python_2_unicode_compatible
 
 from random_id.utils import generate_random_string as id_generator
 
+@python_2_unicode_compatible
 class Product(models.Model):
     order_id = models.CharField('Article Refrence', max_length=11, editable=False, unique=True, null=True)
     article_name = models.CharField("Article name", max_length=128) 

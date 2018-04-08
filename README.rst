@@ -19,16 +19,17 @@ You can get ``django-random-id-generator`` by :
 Usage
 =====
 
-1. Add ``test_app`` to your INSTALLED_APPS setting like this::
+1. Add ``random_id`` to your INSTALLED_APPS setting like this::
 
        INSTALLED_APPS = [
+           # Django default apps 
            ...
-           'test_app',
+           'random_id',
        ]
 
 
 
-2. Run ``python manage.py makemigrations test_app``
+2. Run ``python manage.py makemigrations random_id``
 
 3. Run ``python manage.py migrate``
 
@@ -43,3 +44,9 @@ Requirements
 ============
 
 `Django==2.0.3`
+
+
+Note
+===========
+
+Django==2.0.3 requires Python 3.4, 3.5, 3.6
