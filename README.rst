@@ -30,15 +30,13 @@ Usage
 
 
 
-2. Run ``python manage.py makemigrations random_id``
+2. Run ``python manage.py migrate``
 
-3. Run ``python manage.py migrate``
+3. Run ``python manage.py createsuperuser``
 
-4. Run ``python manage.py createsuperuser``
+4. Run ``python manage.py runserver``
 
-5. Run ``python manage.py runserver``
-
-6. Go to `<http://127.0.0.1:8000/admin/>`_
+5. Go to `<http://127.0.0.1:8000/admin/>`_
 
 
 Requirements
