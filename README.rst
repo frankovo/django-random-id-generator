@@ -12,8 +12,8 @@ Installation
 
 You can get ``django-random-id-generator`` by :
 
-- Run ``pip install django-random-id-generator``.
-- Download or "git clone" the package and run ``setup.py``.
+- Running ``pip install django-random-id-generator``.
+- Downloading or "git clone" the package and run ``setup.py``.
 
 
 
