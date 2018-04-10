@@ -10,9 +10,9 @@ django-random-id-generator is a simple Django app to Generate Random and Unique 
 Installation
 ============
 
-You can get ``django-random-id-generator`` by :
+You can get ``django-random-id-generator`` by::
 
-
+_ ``pip install django-random-id-generator``
 - Download or git clone `<https://github.com/frankovo/django-random-id-generator.git>`_
 
 
