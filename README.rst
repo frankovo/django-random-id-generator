@@ -12,7 +12,7 @@ Installation
 
 You can get ``django-random-id-generator`` by::
 
-_ ``pip install django-random-id-generator``
+- ``pip install django-random-id-generator``
 - Download or git clone `<https://github.com/frankovo/django-random-id-generator.git>`_
 
 
